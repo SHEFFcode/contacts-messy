@@ -28,3 +28,32 @@
   content: "";
   padding: 0;
 }
+
+#addContact {
+  border-radius: 50%;
+  position: fixed;
+  bottom: 30px;
+}
+
+.btn-xlg {
+    padding: 18px 32px;
+    font-size: 22px; //change this to your desired size
+    line-height: normal;
+    -webkit-border-radius: 50%;
+       -moz-border-radius: 50%;
+            border-radius: 50%;
+}
+
+@media (max-width: 600px) {
+  #addContact {
+    position:fixed;
+    bottom: 100px;
+    border-radius: 0;
+    width: 80%;
+  }
+}
+
+.container {
+  max-width: 100%;
+  overflow: scroll;
+}
